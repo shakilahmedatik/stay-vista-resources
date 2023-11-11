@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "654f6d935abba09d18da69cb",
+    "location": "Canterbury, United Kingdom",
+    "title": "Bumble Barn at Great Field Farm",
+    "from": "2023-11-27T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 305,
+    "guests": "6",
+    "bedrooms": "3",
+    "bathrooms": "2",
+    "description": "Great Field Farm is set in 45 acres, including gardens, paddocks and the great field with different crops each year.\nBumble Barn is the newest addition to our eco-friendly  holiday lodges. Built to Passiv house standards with smart technology and a beautiful living sedum roof that bees love.\nThe views from the sitting room and patio over open fields and sky are stunning, with wildlife all around",
+    "image": "https://i.ibb.co/f1494DN/london.webp",
+    "host": {
+      "name": "Shakil Ahmed Atik",
+      "image": "https://lh3.googleusercontent.com/a/ACg8ocJpxSpFQvm4fucJxMSOYG07EY-4eEqymED0zn2w8hBgHw=s96-c",
+      "email": "shakilatik.ph@gmail.com"
+    },
+    "category": "Modern"
+  },
+  {
+    "_id": "654f6d935ee09d18da69cb",
+    "location": "Gaular, Norway",
+    "title": "Breathtaking Mountain views in cozy Birdbox",
+    "from": "2023-11-25T18:00:00.000Z",
+    "to": "2023-11-29T18:00:00.000Z",
+    "price": 269,
+    "guests": "2",
+    "bedrooms": "1",
+    "bathrooms": "1",
+    "description": "Enjoy the relaxed and comfortable enclosure of the Birdbox. Sleep right beside nature and its amazing  surroundings. Lay down and look at the spectacular mountains all around you. Put on your skis and have a breathtaking journey around the nearby trails. Hike down to Langelandsvatnet in the summer and enjoy swimming in energizing water. Your imagination is the limit for what you can experience.",
+    "image": "https://i.ibb.co/M6mBkXT/Avalon-Beach.webp",
+    "host": {
+      "name": "Shakil Ahmed Atik",
+      "image": "https://lh3.googleusercontent.com/a/ACg8ocJpxSpFQvm4fucJxMSOYG07EY-4eEqymED0zn2w8hBgHw=s96-c",
+      "email": "shakilatik.ph@gmail.com"
+    },
+    "category": "Beach"
+  }
+]
