@@ -1,6 +1,6 @@
 # stay-vista-resources
 
-###All the packages used in this project:
+### All the packages used in this project:
 - [@headlessui/react](https://www.npmjs.com/package/@headlessui/react)
 - [@tanstack/react-query](https://www.npmjs.com/package/@tanstack/react-query)
 - [axios](https://www.npmjs.com/package/axios)
