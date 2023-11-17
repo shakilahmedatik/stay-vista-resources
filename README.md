@@ -1,6 +1,14 @@
 # stay-vista-resources
 
+### All Part Repositories:
+
+- [Starter Template Code](https://github.com/shakilahmedatik/stayVista-starter-template)
+- [StayVista Part 1 Code](https://github.com/shakilahmedatik/stay-vista-part1)
+- [StayVista Part 2 Code](https://github.com/shakilahmedatik/stay-vista-part2)
+- [StayVista Part 3 Code](https://github.com/shakilahmedatik/stay-vista-part3)
+
 ### All the packages used in this project:
+
 - [@headlessui/react](https://www.npmjs.com/package/@headlessui/react)
 - [@tanstack/react-query](https://www.npmjs.com/package/@tanstack/react-query)
 - [axios](https://www.npmjs.com/package/axios)
