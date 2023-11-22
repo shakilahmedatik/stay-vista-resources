@@ -1,19 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import { getHostStat } from '../../../../api/utils'
 import { Calendar } from 'react-date-range'
 import { FaDollarSign } from 'react-icons/fa'
 import { BsFillCartPlusFill, BsFillHouseDoorFill } from 'react-icons/bs'
 import { GiPlayerTime } from 'react-icons/gi'
 import SalesLineChart from '../Admin/SalesLineChart'
-import { formatDistanceToNow } from 'date-fns'
-import { useQuery } from '@tanstack/react-query'
-import Loader from '../../../Shared/Loader'
+
 const HostStatistics = () => {
-  const { data: statData = [], isLoading } = useQuery({
-    queryKey: ['statData'],
-    queryFn: async () => await getHostStat(),
-  })
-  if (isLoading) return <Loader />
   return (
     <div>
       <div className='mt-12'>
@@ -31,7 +22,7 @@ const HostStatistics = () => {
                 Total Sales
               </p>
               <h4 className='block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900'>
-                ${statData?.totalSale}
+                $45
               </h4>
             </div>
           </div>
@@ -48,7 +39,7 @@ const HostStatistics = () => {
                 Total Bookings
               </p>
               <h4 className='block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900'>
-                {statData?.bookingCount}
+                56
               </h4>
             </div>
           </div>
@@ -64,7 +55,7 @@ const HostStatistics = () => {
                 Total Rooms
               </p>
               <h4 className='block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900'>
-                {statData?.roomCount}
+                435
               </h4>
             </div>
           </div>
@@ -81,8 +72,7 @@ const HostStatistics = () => {
                 Host Since...
               </p>
               <h4 className='block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900'>
-                {statData?.hostSince &&
-                  formatDistanceToNow(new Date(statData.hostSince))}
+                3 Days
               </h4>
             </div>
           </div>
@@ -91,7 +81,7 @@ const HostStatistics = () => {
         <div className='mb-4 grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3'>
           {/* Total Sales Graph */}
           <div className='relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2'>
-            <SalesLineChart data={statData?.chartData} />
+            <SalesLineChart />
           </div>
           {/* Calender */}
           <div className='relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden'>

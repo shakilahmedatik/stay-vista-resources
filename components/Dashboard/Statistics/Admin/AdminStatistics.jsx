@@ -29,7 +29,7 @@ const AdminStatistics = () => {
                 Total Sales
               </p>
               <h4 className='block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900'>
-                ${statData?.totalSale}
+                $345
               </h4>
             </div>
           </div>
@@ -45,7 +45,7 @@ const AdminStatistics = () => {
                 Total User
               </p>
               <h4 className='block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900'>
-                {statData?.userCount}
+                23
               </h4>
             </div>
           </div>
@@ -61,7 +61,7 @@ const AdminStatistics = () => {
                 Total Bookings
               </p>
               <h4 className='block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900'>
-                {statData?.bookingCount}
+                345
               </h4>
             </div>
           </div>
@@ -77,7 +77,7 @@ const AdminStatistics = () => {
                 Total Rooms
               </p>
               <h4 className='block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900'>
-                {statData?.roomCount}
+                454
               </h4>
             </div>
           </div>
@@ -86,7 +86,7 @@ const AdminStatistics = () => {
         <div className='mb-4 grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3'>
           {/* Total Sales Graph */}
           <div className='relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2'>
-            <SalesLineChart data={statData?.chartData} />
+            <SalesLineChart />
           </div>
           {/* Calender */}
           <div className='relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden'>
