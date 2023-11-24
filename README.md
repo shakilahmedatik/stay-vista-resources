@@ -4,11 +4,7 @@
 ### All Part Repositories:
 
 - [Starter Template Code](https://github.com/shakilahmedatik/stayVista-starter-template)
-- [StayVista Part 1 Code](https://github.com/shakilahmedatik/stay-vista-part1)
-- [StayVista Part 2 Code](https://github.com/shakilahmedatik/stay-vista-part2)
-- [StayVista Part 3 Code](https://github.com/shakilahmedatik/stay-vista-part3)
-- [StayVista Part 4 Code](https://github.com/shakilahmedatik/stay-vista-part4)
-- [StayVista Complete](https://github.com/shakilahmedatik/stay-vista-complete)
+
 
 ### All the packages used in this project:
 
